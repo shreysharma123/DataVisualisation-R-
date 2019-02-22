@@ -17,3 +17,5 @@ library(foreign)
 setwd("C:\\Users\\Shrey Sharma\\Downloads") 
 Drug_Trail <- read.spss("NewDrug.sav")
 
+Drug_Trail <- as.data.frame(Drug_Trail) 
+head(Drug_Trail)
